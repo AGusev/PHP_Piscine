@@ -1,0 +1,105 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   responsive.css                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: agusev <agusev@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: Invalid date        by agusev            #+#    #+#             */
+/*   Updated: 2019/03/26 13:13:43 by agusev           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+    .hed {
+      color: #ffffff;
+      text-align: center;
+    }
+
+    #hidden {
+      border: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      width: 5%;
+      height: 60%;
+      border: 1px solid black;
+    }
+
+    header {
+      color: #ffffff;
+      font-size: 1vw;
+      text-align: center;
+      margin: 0;
+      font-size: 200%
+    }
+
+    h1 {
+      font-size: 2vw;
+      color: #000000;
+      text-align: center;
+      margin: 0;
+
+    }
+
+    h2 {
+      font-size: 2vw;
+      color: #ffff00;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1vw;
+      margin: 0;
+    }
+
+    body {
+      background-image: url(https://futurism.com/wp-content/uploads/2016/01/atom.jpg);
+      background-size: 100%;
+    }
+
+    .nbr_weight {
+      margin-right: 2px;
+          text-align: right;
+    }
+
+    .nbr_bottom {
+      margin-left: 2px;
+      text-align: left;
+    }
+
+    .color_old_1 {
+      background-color: #ffff00;
+    }
+
+    .color_old_2 {
+      background-color: #ff80aa;
+    }
+
+    .color_old_3 {
+      background-color: #33cccc;
+    }
+
+    .color_old_4 {
+      background-color: #ff4d4d;
+    }
+
+    .color_old_5 {
+      background-color: #a69de1;
+    }
+
+    .color_old_6 {
+      background-color: #3cddd5;
+    }
+
+    .color_old_7 {
+      background-color: #6585e7;
+    }
+
+    .color_old_8 {
+      background-color: #ffa333;
+    }

@@ -1,0 +1,79 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   menu.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: agusev <agusev@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/03/26 13:13:43 by agusev            #+#    #+#             */
+/*   Updated: 2019/03/26 23:03:27 by agusev           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+body {
+	margin: 0px;
+    padding: 0px;
+    background-color: rgba(250, 128, 114, 0.63);
+}
+
+ul {
+	display: block;
+	padding: 0px;
+    margin: 0px;
+	list-style: none;
+}
+
+ul.menu > li {
+	position: relative;
+	float: left;
+}
+
+ul.menu > li > a {
+	display: block;
+    background-color: #00bb8fa8;
+    
+	text-align: center;
+	padding: 10px 10px 10px 10px; 
+	font-size: 3vw;
+	color: #0000ff; 
+    text-decoration: none;
+    border: 0.2vw solid rgba(137, 43, 226, 0.836);
+    border-radius: 10px;
+}
+
+ul.menu >li > a:hover {
+	background-color: rgba(255, 255, 0, 0.664);
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    float: center;
+    width: 100%;
+    top:5vw;
+    left: 0px;
+    text-align: center;
+
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.726);
+    text-decoration: none;
+    border: 0.1vw solid rgba(255, 255, 255, 0.733);
+    border-radius: 10px;
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: none;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
